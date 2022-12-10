@@ -1,0 +1,6 @@
+FROM postgres:9.3
+ENV POSTGRES_USER mentor
+ENV POSTGRES_PASSWORD secret
+ENV POSTGRES_DB mentorship
+ADD create_table.sql /docker-entrypoint-initdb.d/
+
