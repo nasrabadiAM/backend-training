@@ -42,6 +42,22 @@ docker exec -it postgresql-practice psql -U ali -d hello
 ```
 
 
+After run 
+-----
+after running your instance, you can stop or re-run the image
+```bash 
+docker run instance-id
+
+docker stop instance-id
+```
+
+you can get the instance-id with run this command
+
+```bash 
+
+docker ps (--all)
+```
+
 
 
 
